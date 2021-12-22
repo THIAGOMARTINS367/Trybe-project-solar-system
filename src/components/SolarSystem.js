@@ -7,7 +7,7 @@ class SolarSystem extends React.Component {
   render() {
     return (
       <div data-testid="solar-system" className='solar-system'>
-        <Title headline='Planetas' />
+          <Title headline='Planetas' />
         <section className='list-planets'>
           {
             Planets.map((element) => 

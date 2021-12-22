@@ -7,11 +7,11 @@ import Missions from './components/Missions.js';
 class App extends React.Component {
   render() {
     return (
-      <section>
+      <main>
         <Header />
         <SolarSystem />
         <Missions />
-      </section>
+      </main>
     );
   }
 }

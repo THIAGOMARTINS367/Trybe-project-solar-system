@@ -16,16 +16,12 @@ body {
 }
 
 .list-planets {
-  width: 100%;
-  text-align: center;
-}
-
-.div-planets {
   display: flex;
   text-align: center;
   align-items: baseline;
   justify-content: space-evenly;
 }
+
 .planet-card {
   display: inline-block;
 }

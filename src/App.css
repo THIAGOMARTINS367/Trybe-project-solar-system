@@ -2,3 +2,75 @@
   text-align: center;
 }
 
+body {
+  color: white;
+  background-image: url(./images/background.png);
+}
+
+.title {
+  color: white;
+}
+
+.solar-system {
+  text-align: center;
+}
+
+.list-planets {
+  width: 100%;
+  text-align: center;
+}
+
+.div-planets {
+  display: flex;
+  text-align: center;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+.planet-card {
+  display: inline-block;
+}
+
+.planet-card img {
+  text-align: center;
+  width: 100%;
+}
+
+#Mercurio {
+  width: 5%;
+}
+
+#Venus {
+  width: 25%;
+  margin-left: 40px;
+}
+
+#Terra {
+  width: 27%;
+  margin-left: 40px;
+}
+
+#Marte {
+  width: 20%;
+  margin-left: 40px;
+}
+
+#Jupiter {
+  width: 70%;
+}
+
+#Saturno {
+  width: 67%;
+}
+
+#Urano {
+  width: 48%;
+}
+
+#Netuno {
+  width: 46%;
+  margin-left: 10px;
+}
+
+.planet-name {
+  color: white;
+}

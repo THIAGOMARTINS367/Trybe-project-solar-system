@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
 .App {
   text-align: center;
 }
@@ -12,6 +14,11 @@ header {
   font-size: 30pt;
 }
 
+header h1 {
+  font-family: Roboto;
+  font-weight: 500;
+}
+
 .solar-system {
   text-align: center;
 }
@@ -20,10 +27,12 @@ header {
   width: 50%;
   margin: 60px auto 20px auto;
   font-size: 25pt;
+  font-family: Roboto;
+  font-weight: 400;
   padding: 10px;
   text-align: center;
   border-radius: 10px;
-  background-color: rgba(17, 17, 17, 0.329);
+  background-color: rgba(17, 17, 17, 0.616);
   color: white;
   border: solid 1px white;
 }
@@ -50,37 +59,40 @@ header {
 
 #Venus {
   width: 25%;
-  margin-left: 40px;
+  margin-left: 25px;
 }
 
 #Terra {
   width: 27%;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 #Marte {
   width: 20%;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 
 #Jupiter {
-  width: 70%;
+  width: 50%;
 }
 
 #Saturno {
-  width: 67%;
-}
-
-#Urano {
   width: 48%;
 }
 
+#Urano {
+  width: 35%;
+}
+
 #Netuno {
-  width: 46%;
+  width: 33%;
   margin-left: 10px;
 }
 
 .planet-name {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 100%;
   color: white;
 }
 
@@ -94,15 +106,17 @@ header {
 .mission-card {
   width: 200px;
   height: 170px;
-  margin-left: 9.5px;
-  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  font-family: Roboto;
+  background-color: rgba(17, 17, 17, 0.616);
   border: solid 1px white;
   border-radius: 10px;
 }
 
 .mission-card h3{
   margin: 0px;
-  padding: 15px;
+  padding: 8px;
   text-align: center;
   border-bottom: solid 1px white;
 }
@@ -116,83 +130,103 @@ header {
 }
 
 .mission-card:nth-child(1) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(2) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(3) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(4) ul {
-  margin-top: 7%;
+  /* background-color: tomato; */
+  margin-top: 3%;
 }
 
 .mission-card:nth-child(5) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(6) ul {
-  margin-top: 12%;
+  /* background-color: tomato; */
+  margin-top: 8%;
 }
 
 .mission-card:nth-child(7) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(8) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(9) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(10) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(11) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(12) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(13) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(14) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(15) ul {
-  margin-top: 12%;
+  /* background-color: tomato; */
+  margin-top: 7%;
 }
 
 .mission-card:nth-child(16) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(17) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(18) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(19) ul {
-  margin-top: 17%;
+  /* background-color: tomato; */
+  margin-top: 13%;
 }
 
 .mission-card:nth-child(20) ul {
-  margin-top: 12%;
+  /* background-color: tomato; */
+  margin-top: 8%;
 }
 
 .mission-card ul li{

@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap') ;
 
 .App {
   text-align: center;
 }
 
 body {
+  background-image: url('./images/background.png');
   color: white;
-  background-image: url(./images/background.png);
 }
 
 header {
-  text-align: center;
   font-size: 30pt;
+  text-align: center;
 }
 
 header h1 {
@@ -24,23 +24,23 @@ header h1 {
 }
 
 .title {
-  width: 50%;
-  margin: 60px auto 20px auto;
-  font-size: 25pt;
   font-family: Roboto;
+  font-size: 25pt;
+  margin: 60px auto 20px;
+  width: 50%;
   font-weight: 400;
   padding: 10px;
-  text-align: center;
-  border-radius: 10px;
   background-color: rgba(17, 17, 17, 0.616);
-  color: white;
+  border-radius: 10px;
+  text-align: center;
   border: solid 1px white;
+  color: white;
 }
 
 .list-planets {
   display: flex;
-  text-align: center;
   align-items: baseline;
+  text-align: center;
   justify-content: space-evenly;
 }
 
@@ -58,18 +58,18 @@ header h1 {
 }
 
 #Venus {
-  width: 25%;
   margin-left: 25px;
+  width: 25%;
 }
 
 #Terra {
-  width: 27%;
   margin-left: 10px;
+  width: 27%;
 }
 
 #Marte {
-  width: 20%;
   margin-left: 10px;
+  width: 20%;
 }
 
 #Jupiter {
@@ -85,150 +85,170 @@ header h1 {
 }
 
 #Netuno {
-  width: 33%;
   margin-left: 10px;
+  width: 33%;
 }
 
 .planet-name {
   font-family: Roboto;
-  font-weight: 300;
-  font-size: 100%;
   color: white;
+  font-size: 100%;
+  font-weight: 300;
 }
 
 .list-missions {
   display: flex;
-  justify-content: space-evenly;
   align-items: baseline;
+  justify-content: space-evenly;
   flex-flow: row wrap;
 }
 
 .mission-card {
-  width: 200px;
   height: 170px;
-  margin-left: 10px;
-  margin-bottom: 40px;
-  font-family: Roboto;
+  width: 200px;
   background-color: rgba(17, 17, 17, 0.616);
+  font-family: Roboto;
+  margin-bottom: 40px;
+  margin-left: 10px;
   border: solid 1px white;
   border-radius: 10px;
 }
 
-.mission-card h3{
+.mission-card h3 {
   margin: 0px;
   padding: 8px;
-  text-align: center;
   border-bottom: solid 1px white;
+  text-align: center;
 }
 
-.mission-card ul{
+.mission-card ul {
   margin: 0px;
   padding: 0px;
-  text-align: center;
   font-size: 14pt;
+  text-align: center;
   list-style: none;
 }
 
-.mission-card:nth-child(1) ul {
+.mission-card:nth-child( 1 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(2) ul {
+.mission-card:nth-child( 2 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(3) ul {
+.mission-card:nth-child( 3 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(4) ul {
+.mission-card:nth-child( 4 ) ul {
+
   /* background-color: tomato; */
   margin-top: 3%;
 }
 
-.mission-card:nth-child(5) ul {
+.mission-card:nth-child( 5 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(6) ul {
+.mission-card:nth-child( 6 ) ul {
+
   /* background-color: tomato; */
   margin-top: 8%;
 }
 
-.mission-card:nth-child(7) ul {
+.mission-card:nth-child( 7 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(8) ul {
+.mission-card:nth-child( 8 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(9) ul {
+.mission-card:nth-child( 9 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(10) ul {
+.mission-card:nth-child( 10 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(11) ul {
+.mission-card:nth-child( 11 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(12) ul {
+.mission-card:nth-child( 12 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(13) ul {
+.mission-card:nth-child( 13 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(14) ul {
+.mission-card:nth-child( 14 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(15) ul {
+.mission-card:nth-child( 15 ) ul {
+
   /* background-color: tomato; */
   margin-top: 7%;
 }
 
-.mission-card:nth-child(16) ul {
+.mission-card:nth-child( 16 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(17) ul {
+.mission-card:nth-child( 17 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(18) ul {
+.mission-card:nth-child( 18 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(19) ul {
+.mission-card:nth-child( 19 ) ul {
+
   /* background-color: tomato; */
   margin-top: 13%;
 }
 
-.mission-card:nth-child(20) ul {
+.mission-card:nth-child( 20 ) ul {
+
   /* background-color: tomato; */
   margin-top: 8%;
 }
 
-.mission-card ul li{
+.mission-card ul li {
   margin-top: 5px;
 }

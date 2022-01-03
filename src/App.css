@@ -27,21 +27,21 @@ header h1 {
   font-family: Roboto;
   font-size: 25pt;
   margin: 60px auto 20px;
-  width: 50%;
   font-weight: 400;
-  padding: 10px;
+  width: 50%;
   background-color: rgba(17, 17, 17, 0.616);
+  padding: 10px;
   border-radius: 10px;
-  text-align: center;
   border: solid 1px white;
+  text-align: center;
   color: white;
 }
 
 .list-planets {
-  display: flex;
   align-items: baseline;
-  text-align: center;
+  display: flex;
   justify-content: space-evenly;
+  text-align: center;
 }
 
 .planet-card {
@@ -90,43 +90,43 @@ header h1 {
 }
 
 .planet-name {
-  font-family: Roboto;
   color: white;
+  font-family: Roboto;
   font-size: 100%;
   font-weight: 300;
 }
 
 .list-missions {
-  display: flex;
   align-items: baseline;
-  justify-content: space-evenly;
+  display: flex;
   flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
 .mission-card {
   height: 170px;
-  width: 200px;
   background-color: rgba(17, 17, 17, 0.616);
+  width: 200px;
   font-family: Roboto;
   margin-bottom: 40px;
-  margin-left: 10px;
   border: solid 1px white;
+  margin-left: 10px;
   border-radius: 10px;
 }
 
 .mission-card h3 {
-  margin: 0px;
-  padding: 8px;
+  margin: 0.000001px;
   border-bottom: solid 1px white;
+  padding: 8px;
   text-align: center;
 }
 
 .mission-card ul {
-  margin: 0px;
-  padding: 0px;
+  margin: 0.000001px;
   font-size: 14pt;
-  text-align: center;
+  padding: 0.000001px;
   list-style: none;
+  text-align: center;
 }
 
 .mission-card:nth-child( 1 ) ul {

@@ -53,38 +53,38 @@ header h1 {
   width: 100%;
 }
 
-#Mercurio {
+.mercurio {
   width: 5%;
 }
 
-#Venus {
+.venus {
   margin-left: 25px;
   width: 25%;
 }
 
-#Terra {
+.terra {
   margin-left: 10px;
   width: 27%;
 }
 
-#Marte {
+.marte {
   margin-left: 10px;
   width: 20%;
 }
 
-#Jupiter {
+.jupiter {
   width: 50%;
 }
 
-#Saturno {
+.saturno {
   width: 48%;
 }
 
-#Urano {
+.urano {
   width: 35%;
 }
 
-#Netuno {
+.netuno {
   margin-left: 10px;
   width: 33%;
 }

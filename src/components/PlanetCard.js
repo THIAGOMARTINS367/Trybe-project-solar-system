@@ -7,8 +7,7 @@ class PlanetCard extends React.Component {
     return (
       <div
         data-testid="planet-card"
-        className="planet-card"
-        id={ planetName.replace('ú', 'u').replace('ê', 'e') }
+        className={`planet-card ${ planetName.toLowerCase().replace('ú', 'u').replace('ê', 'e') }` }
       >
         <img src={ planetImage } alt={ `Planeta ${planetName}` } />
         <span data-testid="planet-name" className="planet-name">

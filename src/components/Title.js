@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
 class Title extends React.Component {
-  render () {
+  render() {
     return (
-      <h2 className='title'>{this.props.headline}</h2>
-    )
+      <h2 className="title">{this.props.headline}</h2>
+    );
   }
 }
 

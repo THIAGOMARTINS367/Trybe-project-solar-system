@@ -26,15 +26,15 @@ header h1 {
 .title {
   font-family: Roboto;
   font-size: 25pt;
-  margin: 60px auto 20px;
   font-weight: 400;
-  width: 50%;
+  margin: 60px auto 20px;
   background-color: rgba(17, 17, 17, 0.616);
-  padding: 10px;
-  border-radius: 10px;
+  width: 50%;
   border: solid 1px white;
-  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
   color: white;
+  text-align: center;
 }
 
 .list-planets {
@@ -104,28 +104,28 @@ header h1 {
 }
 
 .mission-card {
-  height: 170px;
   background-color: rgba(17, 17, 17, 0.616);
-  width: 200px;
+  height: 170px;
   font-family: Roboto;
-  margin-bottom: 40px;
+  width: 200px;
   border: solid 1px white;
-  margin-left: 10px;
+  margin-bottom: 40px;
   border-radius: 10px;
+  margin-left: 10px;
 }
 
 .mission-card h3 {
-  margin: 0.000001px;
   border-bottom: solid 1px white;
+  margin: 0.001px;
   padding: 8px;
   text-align: center;
 }
 
 .mission-card ul {
-  margin: 0.000001px;
   font-size: 14pt;
-  padding: 0.000001px;
+  margin: 0.001px;
   list-style: none;
+  padding: 0.001px;
   text-align: center;
 }
 

@@ -7,11 +7,11 @@ class PlanetCard extends React.Component {
       <div
         data-testid="planet-card"
         className="planet-card"
-        id={ planetName.replace("ú", "u").replace("ê", "e") }
+        id={ planetName.replace('ú', 'u').replace('ê', 'e') }
       >
-        <img src={planetImage} alt={`Planeta ${planetName}`} />
+        <img src={ planetImage } alt={ `Planeta ${ planetName }` } />
         <span data-testid="planet-name" className="planet-name">
-          {planetName}
+          { planetName }
         </span>
       </div>
     );

@@ -20,7 +20,6 @@ O projeto tem por objetivo a avaliação e prática dos conhecimentos adquiridos
 - [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
   - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
   - [Durante o desenvolvimento](#durante-o-desenvolvimento)
-  - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
 - [Como desenvolver](#como-desenvolver)
   - [ESLint-e-Stylelint](#eslint-e-stylelint)
   - [Execução de testes unitários](#execução-de-testes-unitários)
@@ -127,17 +126,6 @@ Você já aprendeu a criar componentes React, e nesse projeto vamos praticar mui
   3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
   4. `git push -u nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
   5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
----
-
-## Depois de terminar o desenvolvimento (opcional)
-
-Para **"entregar"** seu projeto, siga os passos a seguir:
-
-* Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
-  * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-00`
 
 ---
 

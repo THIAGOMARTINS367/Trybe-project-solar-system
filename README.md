@@ -1,17 +1,6 @@
-### Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
-
----
-
 # Boas vindas ao repositório do projeto Sistema Solar!
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Fique atento a cada passo, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
 ---
-
 
 # Sumário
 
@@ -21,7 +10,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Entregáveis](#entregáveis)
   - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
-  - [Data de Entrega](#data-de-entrega)
 - [Observações técnicas](#observações-técnicas)
   - [Renderização Condicional](#renderização-condicional)
 - [Instruções para entregar seu projeto](#instruções-para-entregar-seu-projeto)
@@ -42,7 +30,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   - [8. Renderize o componente `Title` dentro do componente `Missions`](#8-renderize-o-componente-Title-dentro-do-componente-Missions)
   - [9. Crie um componente chamado `MissionCard`](#9-crie-um-componente-chamado-MissionCard)
   - [10. Renderize uma lista com as missões espaciais](#10-renderize-uma-lista-com-as-missões-espaciais)
-- [Avisos Finais](#avisos-finais)
 
 ---
 
@@ -89,13 +76,8 @@ Você deve desenvolver uma aplicação em React com criação de componentes de 
 
 As imagens dos planetas e as informações das missões são fornecidas no projeto. Você terá que desenvolver os componentes necessários para exibi-las na tela, conforme o descrito nos requisitos.
 
-## Data de Entrega
-
   - Projeto individual.
 
-  - Serão 2 dias de projeto.
-  
-  - Data de entrega para avaliação final do projeto: `11/01/2022 - 14:00h`.
 ---
 
 # Observações técnicas
@@ -445,13 +427,3 @@ import missions from '../data/missions';
 * Será verificado se é renderizado um componente `<MissionCard />` para cada missão espacial da lista de missões.
 
 * Será verificado se todas as missões espaciais estão sendo listados na tela.
-
-# Avisos Finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://bit.ly/2OfLJPn)
-
-O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
-
----

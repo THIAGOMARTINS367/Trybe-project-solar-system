@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/app-toot-name/static/css/main.08f1bdbb.chunk.css",
+    "main.js": "/app-toot-name/static/js/main.ba77a0e5.chunk.js",
+    "main.js.map": "/app-toot-name/static/js/main.ba77a0e5.chunk.js.map",
+    "runtime-main.js": "/app-toot-name/static/js/runtime-main.b1ddcae8.js",
+    "runtime-main.js.map": "/app-toot-name/static/js/runtime-main.b1ddcae8.js.map",
+    "static/js/2.ff50021a.chunk.js": "/app-toot-name/static/js/2.ff50021a.chunk.js",
+    "static/js/2.ff50021a.chunk.js.map": "/app-toot-name/static/js/2.ff50021a.chunk.js.map",
+    "index.html": "/app-toot-name/index.html",
+    "static/css/main.08f1bdbb.chunk.css.map": "/app-toot-name/static/css/main.08f1bdbb.chunk.css.map",
+    "static/js/2.ff50021a.chunk.js.LICENSE.txt": "/app-toot-name/static/js/2.ff50021a.chunk.js.LICENSE.txt",
+    "static/media/Jupiter.529cdbe0.png": "/app-toot-name/static/media/Jupiter.529cdbe0.png",
+    "static/media/Marte.6cae79d3.png": "/app-toot-name/static/media/Marte.6cae79d3.png",
+    "static/media/Mercurio.a7105a56.png": "/app-toot-name/static/media/Mercurio.a7105a56.png",
+    "static/media/Netuno.48cf14b7.png": "/app-toot-name/static/media/Netuno.48cf14b7.png",
+    "static/media/Saturno.00b7295f.png": "/app-toot-name/static/media/Saturno.00b7295f.png",
+    "static/media/Terra.990ac782.png": "/app-toot-name/static/media/Terra.990ac782.png",
+    "static/media/Urano.607cb33c.png": "/app-toot-name/static/media/Urano.607cb33c.png",
+    "static/media/Venus.397fdee2.png": "/app-toot-name/static/media/Venus.397fdee2.png",
+    "static/media/App.css": "/app-toot-name/static/media/background.0dced38c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1ddcae8.js",
+    "static/js/2.ff50021a.chunk.js",
+    "static/css/main.08f1bdbb.chunk.css",
+    "static/js/main.ba77a0e5.chunk.js"
+  ]
+}

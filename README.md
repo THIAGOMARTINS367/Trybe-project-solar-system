@@ -49,7 +49,7 @@ Foi implementado uma página web de um modelo do sistema solar! Ao utilizar essa
 
 ## Tecnologias usadas
 
-- `javascript`, `React` e `css`.
+- `javascript`, `jsx`, `React` e `css`.
 
 ---
 
